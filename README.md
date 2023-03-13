@@ -5,3 +5,4 @@ This repository will be used to store projects and assignments that showcase my 
 ## Links to Projects / Assignments
 
 - [Dog Generator Using API] (https://dog-api-generator.netlify.app/)
+- [Dog Generator Using API](https://dog-api-generator.netlify.app/).
