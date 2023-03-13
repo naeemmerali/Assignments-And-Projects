@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+  min-height: 100vh;
+  background: linear-gradient(lightyellow,orange);
+}
+
+#heading-container {
+  width: 100vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+
+.heading {
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  flex: 1;
+}
+
+.column-two {
+  align-items: baseline;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#selector {
+  width: 10vw;
+  font-size: 1.5vw;
+}
+
+#emojis {
+  font-size: 3vw;
+}
+
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+li {
+  font-size: 3rem;
+  padding-bottom: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+img {
+  max-width: 400px;
+  max-height: 600px;
+  margin-bottom: 10vw;
+}
